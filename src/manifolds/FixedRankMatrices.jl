@@ -1,6 +1,6 @@
 @doc raw"""
     FixedRankMatrices{T,𝔽} <: AbstractDecoratorManifold{𝔽}
-
+inverse_retract_polar!
 The manifold of ``m×n`` real-valued or complex-valued matrices of fixed rank ``k``, i.e.
 ````math
 \bigl\{ p ∈ 𝔽^{m×n}\ \big|\ \operatorname{rank}(p) = k\bigr\},
